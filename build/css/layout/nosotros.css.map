@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout/nosotros.scss","layout/nosotros.css"],"names":[],"mappings":"AAAA,UACI,YCCJ","file":"nosotros.css","sourcesContent":[".nosotros{\r\n    display: grid;\r\n    \r\n}",".nosotros {\n  display: grid;\n}"]}
