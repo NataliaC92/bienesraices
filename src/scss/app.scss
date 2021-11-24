@@ -7,6 +7,7 @@
 @import 'base/darkMode';
 
 /* UI */
+
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/navegacion';
@@ -17,3 +18,8 @@
 @import 'layout/testimoniales';
 @import 'layout/nosotros';
 @import 'layout/formularios';
+
+/* Paginas internas */
+
+@import'internas/nosotros';
+@import'internas/admin';
