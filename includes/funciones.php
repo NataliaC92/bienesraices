@@ -6,6 +6,17 @@
     
         include  TEMPLATE_URL . "/${nombre}.php";
 
-        $inicio = true;
-    
-}
+        $inicio = true;  
+    }
+
+    function estaAutenticado() : bool {
+        session_start();
+
+        $auth = $_SESSION['login'];
+        if($auth){
+            return true;
+        }
+            
+        return false;
+
+    }
