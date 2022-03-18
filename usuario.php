@@ -1,7 +1,8 @@
 <?php 
 
 /* importar  conexion DB */
-require 'includes/config/database.php';
+/* require 'includes/config/database.php'; */
+require 'include/app.php';
 $db = conectarDB();
 
 /* crear usuario y password */

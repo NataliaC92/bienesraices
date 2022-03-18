@@ -9,10 +9,11 @@
     }
 
     /* importar DB */
-        require 'includes/config/database.php';
+    /*     require 'includes/config/database.php'; */
     /* es lo mismo solo que de esta manera hacemos de cuenta que llamamos al documento desde ESTE archivo, y no desde los archivos index.php donde se utilizan este archivo. 
-        require __DIR__ . '/../config/database.php'; 
+    require __DIR__ . '/../config/database.php'; 
     */
+    require 'includes/app.php';
 
     $db = conectarDB();
 
@@ -28,7 +29,6 @@
 
 
         $propiedad = mysqli_fetch_assoc($resultado);
-    require 'includes/funciones.php';
         
     incluirTemplate('header');
 
